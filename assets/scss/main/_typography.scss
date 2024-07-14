@@ -1,0 +1,504 @@
+.display-one {
+  font-size: 80px;
+}
+
+.display-two {
+  font-size: 72px;
+}
+
+.display-three {
+  font-size: 64px;
+}
+
+.display-four {
+  font-size: 56px;
+}
+
+.display-ex-one {
+  font-size: 120px;
+}
+
+.fs-one,
+h1,
+h1 > a {
+  font-size: 48px;
+}
+
+.fs-two,
+h2,
+h2 > a {
+  font-size: 40px;
+}
+
+.fs-three,
+h3,
+h3 > a {
+  font-size: 32px;
+}
+
+.fs-four,
+h4,
+h4 > a {
+  font-size: 28px;
+}
+
+.fs-five,
+h5,
+h5 > a {
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.fs-six,
+h6,
+h6 > a {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.fs-seven {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.fs-eight {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.fs-nine {
+  font-size: 14px;
+  line-height: 150%;
+}
+.fs-ten {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+table thead tr th {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+a,
+p,
+button,
+span,
+label,
+li {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+.py-120 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.pt-60 {
+  padding-top: 60px;
+}
+.pb-60 {
+  padding-bottom: 60px;
+}
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 1399px) {
+  .display-one {
+    font-size: 72px;
+  }
+  .display-two {
+    font-size: 64px;
+  }
+  .display-three {
+    font-size: 56px;
+  }
+  .display-four {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .display-one {
+    font-size: 68px;
+  }
+
+  .display-two {
+    font-size: 60px;
+  }
+
+  .display-three {
+    font-size: 52px;
+  }
+
+  .display-four {
+    font-size: 48px;
+  }
+
+  .display-ex-one {
+    font-size: 90px;
+  }
+
+  .fs-one,
+  h1,
+  h1 > a {
+    font-size: 40px;
+  }
+
+  .fs-two,
+  h2,
+  h2 > a {
+    font-size: 36px;
+  }
+
+  .fs-three,
+  h3,
+  h3 > a {
+    font-size: 28px;
+  }
+
+  .fs-four,
+  h4,
+  h4 > a {
+    font-size: 24px;
+  }
+
+  .fs-five,
+  h5,
+  h5 > a {
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  .fs-six,
+  h6,
+  h6 > a {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .fs-seven {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .fs-eight {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .fs-nine {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .fs-ten {
+    font-size: 10px;
+    line-height: 150%;
+  }
+
+  table thead tr th {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  a,
+  p,
+  button,
+  span,
+  label,
+  li {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 991px) {
+  .display-one {
+    font-size: 60px;
+  }
+
+  .display-two {
+    font-size: 52px;
+  }
+
+  .display-three {
+    font-size: 48px;
+  }
+
+  .display-four {
+    font-size: 44px;
+  }
+
+  .display-ex-one {
+    font-size: 80px;
+  }
+
+  .fs-one,
+  h1,
+  h1 > a {
+    font-size: 36px;
+  }
+
+  .fs-two,
+  h2,
+  h2 > a {
+    font-size: 32px;
+  }
+
+  .fs-three,
+  h3,
+  h3 > a {
+    font-size: 24px;
+  }
+
+  .fs-four,
+  h4,
+  h4 > a {
+    font-size: 20px;
+  }
+
+  .fs-five,
+  h5,
+  h5 > a {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .fs-six,
+  h6,
+  h6 > a {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .fs-seven {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .fs-eight {
+    font-size: 13px;
+    line-height: 150%;
+  }
+
+  .fs-nine {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .fs-ten {
+    font-size: 11px;
+    line-height: 150%;
+  }
+
+  table thead tr th {
+    font-size: 13px;
+    line-height: 150%;
+  }
+
+  a,
+  p,
+  button,
+  span,
+  label,
+  li {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .pt-120 {
+    padding-top: 60px;
+  }
+  .pb-120 {
+    padding-bottom: 60px;
+  }
+  .py-120 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .pt-60 {
+    padding-top: 30px;
+  }
+  .pb-60 {
+    padding-bottom: 30px;
+  }
+  .py-60 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .display-one {
+    font-size: 56px;
+  }
+
+  .display-two {
+    font-size: 48px;
+  }
+
+  .display-three {
+    font-size: 44px;
+  }
+
+  .display-four {
+    font-size: 40px;
+  }
+
+  .display-ex-one {
+    font-size: 70px;
+  }
+
+  .fs-one,
+  h1,
+  h1 > a {
+    font-size: 32px;
+  }
+
+  .fs-two,
+  h2,
+  h2 > a {
+    font-size: 28px;
+  }
+
+  .fs-three,
+  h3,
+  h3 > a {
+    font-size: 20px;
+  }
+
+  .fs-four,
+  h4,
+  h4 > a {
+    font-size: 18px;
+  }
+
+  .fs-five,
+  h5,
+  h5 > a {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .fs-six,
+  h6,
+  h6 > a {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .fs-seven {
+    font-size: 13px;
+    line-height: 150%;
+  }
+
+  .fs-eight {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .fs-nine {
+    font-size: 11px;
+    line-height: 150%;
+  }
+  .fs-ten {
+    font-size: 10px;
+    line-height: 150%;
+  }
+
+  table thead tr th {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  a,
+  p,
+  button,
+  span,
+  label,
+  li {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 575px) {
+  .display-one {
+    font-size: 52px;
+  }
+
+  .display-two {
+    font-size: 44px;
+  }
+
+  .display-three {
+    font-size: 40px;
+  }
+
+  .display-four {
+    font-size: 36px;
+  }
+
+  .display-ex-one {
+    font-size: 60px;
+  }
+
+  .fs-one,
+  h1,
+  h1 > a {
+    font-size: 28px;
+  }
+
+  .fs-two,
+  h2,
+  h2 > a {
+    font-size: 24px;
+  }
+
+  .fs-three,
+  h3,
+  h3 > a {
+    font-size: 18px;
+  }
+
+  .fs-four,
+  h4,
+  h4 > a {
+    font-size: 16px;
+  }
+
+  .fs-five,
+  h5,
+  h5 > a {
+    font-size: 15px;
+    line-height: 150%;
+  }
+
+  .pt-120 {
+    padding-top: 50px;
+  }
+  .pb-120 {
+    padding-bottom: 50px;
+  }
+  .py-120 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pt-60 {
+    padding-top: 25px;
+  }
+  .pb-60 {
+    padding-bottom: 25px;
+  }
+  .py-60 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}

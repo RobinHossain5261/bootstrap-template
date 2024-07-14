@@ -1,0 +1,124 @@
+.main-menus {
+  .menu-link {
+    &:hover {
+      a {
+        color: red;
+      }
+    }
+  }
+  .dropdown-menus {
+    position: relative;
+    .ph-caret-down {
+      display: block;
+      margin-top: 2px;
+      transition: all 0.5s ease-in-out;
+    }
+    .dropdown {
+      width: max-content;
+      min-width: 120px;
+      position: absolute;
+      background-color: rgba(var(--p2));
+      padding: 8px 12px;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(24px);
+      transition: all 0.5s ease-in-out;
+    }
+    &:hover {
+      .ph-caret-down {
+        transform: rotate(180deg);
+      }
+      .dropdown {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(4px);
+      }
+      .menu-item {
+        color: red;
+      }
+    }
+  }
+}
+
+// responsive navbar style
+.mobile-nav {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: -100%;
+}
+
+// menu active color
+.active {
+  color: red !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .main-menus {
+    display: none !important;
+  }
+
+  //   mobile nav
+  .mobile-nav {
+    width: 300px;
+    height: 100vh;
+    visibility: visible;
+    background-color: rgba(var(--p1));
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+
+    .sidebar-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      border-bottom: 1px solid rgba(var(--n3), 0.5);
+    }
+
+    .mobile-menu-list {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      li {
+        a,
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .dropdown-menus {
+      position: relative;
+      .dropdown {
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+      }
+      .dropdown.show {
+        visibility: visible;
+        height: auto;
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+        background-color: rgba(var(--p2), 1) !important;
+        padding: 10px 20px;
+        border-radius: 4px;
+      }
+    }
+  }
+  .mobile-nav.close {
+    visibility: hidden;
+    left: (-100%);
+    opacity: 0.8;
+  }
+}

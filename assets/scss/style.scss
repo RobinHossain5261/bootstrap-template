@@ -1,0 +1,33 @@
+/*============================================ 
+# Template Name: Mr.X
+# Version: 1.0
+# Date: 12-07-2024
+# Author: pixelaxis
+# Author URI: https://themeforest.net/user/pixelaxis/portfolio
+# Description: Mr.X - HTML Template
+============================================*/
+
+/*============================================ 
+======== Table of Css Content =========
+# Typography
+# Normalize 
+# Global style
+# Header Area
+# Banner Area
+# Section Area
+# Footer Area
+============================================*/
+
+// CSS Plugin import
+@import "../css/bootstrap.min.css";
+
+// Scss main
+@import "main/_variable";
+@import "main/_mixins";
+@import "main/_typography";
+@import "main/_global";
+
+// Scss Pages
+@import "pages/_navbar";
+@import "pages/_section";
+@import "pages/_footer";
